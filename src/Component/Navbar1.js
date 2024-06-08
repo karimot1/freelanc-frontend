@@ -1,31 +1,60 @@
-import React from 'react'
-import {Link} from "react-router-dom"
-import logo from './images/logo free.png'
-import Navbar2 from './Navbar2'
+import React from 'react';
+import logopro from "./image2/logo_pro-removebg-preview.png";
+import { Icon } from '@iconify/react';
+import { useNavigate } from 'react-router-dom';
 
-const Navbar1  = ()=> {
+const Navbar1 = () => {
+  const navigate = useNavigate(); // Call useNavigate as a function to get navigate
+
+  const handleProfileClick = () => {
+    navigate("/profile")
+  };
+
   return (
-    <>
-    <div className='navbar'>
+    <div className='navbar1'>
+      <div className='logopro'>
+        <img src={logopro} alt="Logo" />
+        <div>
+          <h1>Find job</h1>
+        </div>
+        <div>
+          <h1>About us</h1>
+        </div>
+      </div>
 
-        <div className='image'>
-        <img src={logo} alt="" />
-          <Link className='link'>How it Works</Link>   
-            <Link className='link'>Browser jobs</Link>
+      <div className='nav-texts'>
+        <div>
+          <p>
+            <Icon icon="ph:folder-open-thin" width="25" height="25" style={{ color: "white" }} />
+             <span>Notification</span>
+          </p>
         </div>
 
-        <div className='auth'>
-            <button className='butt'>Login</button>
-            <button className='butt'>Sign up</button>
-            <button className='post'>Post a project</button>
+        <div>
+          <button className='post'>Post project</button>
         </div>
-       
+
+        <div className='profile-dd'>
+          
+          <button onClick={handleProfileClick} className='profile'>
+            <Icon icon="ion:person-circle-outline" width="25" height="25" style={{ color: "white" }} />
+            <span>Username</span>
+          </button>
+          <div className='profile-dropdown'>
+            <button>My Dashboard</button>
+            <div>
+              <h1>My account</h1>
+              <button>profile</button>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <button className='buttlines'> <Icon icon="el:lines" width="20" height="20"  style={{color: 'white'}} /> </button>
+        </div>
+      </div>
     </div>
+  );
+};
 
-  <div> <Navbar2 /></div>  
-  
-    </>
-  )
-}
-
-export default Navbar1
+export default Navbar1;

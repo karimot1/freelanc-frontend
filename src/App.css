@@ -1,0 +1,607 @@
+
+.logopro h1{
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    color:#fff;
+    line-height:30px;
+}
+.logopro{
+    display:flex;
+    flex-wrap: wrap;
+    width:45%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.logopro img{
+    width:180px;
+    height:70px;
+}
+.nav-texts{
+    display:flex;
+    flex-wrap: wrap;
+    width:45%;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.nav-texts p{
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color:#fff;
+    margin-top:10px;
+    line-height:24px;
+}
+.nav-texts .post{
+    width:150px;
+    height:35px;
+    background-color:#dedeb9;
+    border:0;
+    border-radius:3px;
+    font-size:15px;
+    line-height:24px;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fcfcfd;
+    cursor:pointer;
+}
+.nav-texts .post:hover{
+    background-color:#dedeb966;
+}
+.nav-texts span{
+    font-size:15px;
+    line-height:normal;
+    font-weight:400;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fcfcfd;
+    margin:3px;
+}
+.nav-texts .profile{
+    width:150px;
+    height:60px;
+    background:none;
+    border:0;
+    outline:none;
+}
+/* .nav-texts .profile:hover{
+    background-color:#fafafa56;
+} */
+.sidenav{
+    width:100%;
+    height:110px;
+    background-color:#232a35;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.side-link{
+    width:70%;
+    display:flex;
+    flex-wrap:wrap;
+    margin-top:50px;
+}
+.Link{
+ width:130px;
+ height:60px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.Links{
+    width:130px;
+    height:60px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   border-bottom:3px solid #fff;
+   }
+   .Link-home{
+    width:130px;
+    height:60px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   border-bottom:3px solid #fff;
+   }
+   .Link:hover{
+    background-color:rgba(255, 255, 255, 0.272);
+}
+.Link:hover{
+    background-color:rgba(255, 255, 255, 0.272);
+}
+.Link:focus-within{
+    border-bottom:3px solid #fff;
+}
+.Link-text1{
+    width:130px;
+ height:60px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+.Link-text{
+    color:#fff;
+    text-decoration: none;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:700;
+    margin-top:10px;
+}
+
+.Link-texts{
+    color:#fff;
+    text-decoration: none;
+    font-size:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:400;
+    margin-top:10px;
+}
+.profilepage{
+    width:100;
+    height:fit-content;
+    background-color:#ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.profileback{
+    width:80%;
+    height:fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+}
+.profile-content{
+    width:95%;
+}
+.profit-input{
+    width:100%;
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.profit-input label{
+    margin:5px;
+}
+.profit-input input{
+    width: 100%;
+    height:40px;
+    border:1px solid #a1a2a5;
+    outline:0;
+    border-radius:5px;
+    padding:5px;
+}
+.profit-input .selection{
+    width:48%;
+}
+.profit-input select{
+    width: 100%;
+    height:40px;
+    border:1px solid #a1a2a5;
+    outline:0;
+    border-radius:5px;
+    margin-top:10px;
+}
+.profit-input textarea{
+    width:100%;
+    height:120px;
+    border:1px solid #a1a2a5;
+    outline:0;
+    border-radius:5px;
+    padding:5px;
+}
+.profit-input textarea:hover{
+    border:1px solid #dedeb9;
+}
+.profit-input input:hover{
+    border:1px solid #dedeb9;
+}
+.profile-file{
+    width:25%;
+    height:160px;
+    border-radius:4px;
+    background-color: #e60278;
+}
+.profile-file input{
+    width:100%;
+    height:160px;
+}
+.profits-input button{
+    border:0;
+    width:200px;
+    height:40px;
+    background-color:#085d37;
+    border-radius:3px;
+    font-size:15px;
+    line-height:24px;
+    font-weight:700;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fcfcfd;
+    margin-top:30px;
+}
+.profits-input button:hover{
+    background-color:#17392b;
+}
+.profits-input{
+    width:100%;
+    margin-top:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:end;
+    align-items: end;
+}
+.Profilenavbar{
+    width:100%;
+    height:110px;
+    background-color: #232a35;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.profilenavbar-text{
+    width:80%;    
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:50px;
+}
+.buttlines{
+    background:none;
+    border:0;
+    display:none;
+}
+.Link-mya{
+    width:130px;
+    height:60px;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   }
+   .profilenavbar-text2{
+    width:80%;    
+    margin-top:50px;
+    display:none;
+   }
+   .sidenav2{
+    width:80%;    
+    margin-top:50px;
+    display:none;
+   }
+   .linkalls{
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .myaccount{
+    width:100%;
+    height:fit-content;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+   }
+   .myaccount-div{
+    width:90%;
+    height:fit-content;
+   }
+   .myaccout-div1{
+    width:100%;
+    height:300px;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    box-shadow:3px 3px 3px 3px #dedeb935;
+   }
+   .myacount-image{
+    width:150px;
+    height:150px;
+    background-color:#17392b;
+    border-radius:100px;
+   }
+   .myaccout-divss{
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .myaccout-divs{
+    width:100%;
+   text-align: center;
+   }
+   .myaccout-divs h1{
+    font-size:24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color:#12151b;
+    line-height:32px;
+   }
+   .myaccout-divs p{
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:300;
+    color:#a1a2a5;
+    line-height:20px;
+   }
+   .myaccout-div2{
+    width:100%;
+    height:200px;
+    background-color:white;
+    box-shadow:3px 3px 3px 3px #dedeb935;
+    margin-top:30px;
+   }
+   .myaccount-div2-text{
+    width:100%;
+    height:35px;
+    border-bottom:1px solid #a1a2a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .myaccount-div2-text p{
+        width:97%;
+        margin-top:10px;
+        font-size:18px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:500;
+        color:#4e5559;
+        line-height:24px
+   }
+   .delectaccount{
+    width:100%;
+    height:100vh;
+    background-color: #fcfcfd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .delect-text{
+    width:80%;
+    height:fit-content;
+   }
+   .delect-text h1{
+    font-size:20px;
+    font-weight:400;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#000000;
+    line-height:24px;
+   }
+   .delect-button{
+    width:100%;
+    height:fit-content;
+    margin-top:100px;
+   }
+   .delect-button button{
+    width:100%;
+    height:50px;
+    background-color:#800000;
+    border:0;
+    border-radius:5px;
+    font-size:20px;
+    font-weight:300;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#ffffff;
+   }
+   .delect-button button:hover{
+    color:#fcfcfd;
+    background-color:#822222;
+    box-shadow:3px 3px 3px 3px #0000004d;
+   }
+
+    .dash-page{
+        width:100%;
+        height:fit-content;
+        background-color:#fafafa;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+    }  
+    .dashbackground{
+    width:100%;
+    height:fit-content;
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    } 
+    .dash-background1{
+        width:60%;
+        height:fit-content;
+        background-color:#fafafa;
+    }
+    .dash-background2{
+        width:30%;
+        height:fit-content;
+        background-color:#fafafa;
+    }
+    .dashforpost{
+        width:100%;
+        height:200px;
+        background-color: #fff;
+        box-shadow:2px 2px 2px 2px #00000012;
+        margin-top:20px;
+    }
+    .dashbackground-text{
+        width:95%;
+        height:fit-content;
+        background-color: #fafafa;
+        margin-top:50px;
+    }
+    .dashbackground-text h2{
+        font-size:20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:600;
+        list-style:28px;
+        color: #374151;
+    }
+    .dashbackground-text p{
+        font-size:20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:400;
+        list-style:24px;
+        color: #374151;
+    }
+    .dashbackground-text h1{
+        font-size:30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight:500;
+        list-style:24px;
+        color: #000;
+    }
+    .dashforinfo{
+        width:100%;
+        height:fit-content;
+        background-color: #fff;
+        box-shadow:2px 2px 2px 2px #00000012;
+       margin-top:20px;
+    }
+    .profile-dropdown{
+        width:250px;
+        height:400px;
+        background-color:#fcfcfd;
+        position:absolute;
+        top:60px;
+        right:10px;
+        box-shadow:3px 3px 3px 3px #fafafa;
+        display:none;
+    }
+    .profile-dd:hover  .profile-dropdown{
+        display: block;
+    }
+
+    
+
+
+   @media (max-width:1115px){
+    .profilenavbar-text{
+        width:100%;    
+    }
+    .profile-file{
+        width:40%;
+    }
+    .side-link{
+        width:100%;
+    }
+   }
+@media (max-width:900px){
+
+    .nav-texts p span{
+      display:none;
+    }
+}
+@media (max-width:704px){
+    .side-link{
+        display:none;
+     }
+     .sidenav2{
+        display: block;
+        width:100%;
+     }
+     .Link-text1{
+        width:100px;
+     height:60px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:red;
+    }
+}
+@media (max-width:703px){
+
+    .logopro h1{
+        display:none;
+    }
+    .nav-texts{
+               width:70%;
+    }
+    .logopro{
+        width:30%;
+    }
+    .profile-file{
+        width:50%;
+    }
+     
+}
+@media (max-width:603px){
+    .profile-file{
+        width:60%;
+    }
+   
+}
+@media (max-width:540px){
+    .profilenavbar-text{
+    display:none;
+    }
+    .Link{
+        width:50px;
+       }
+       .profilenavbar-text2{
+        width:100%;
+        display:block;
+        }
+        .Link-text1{
+            width:90px;
+        }
+}
+@media (max-width:500px){
+    .nav-texts .post{
+        display:none;
+    }
+    .nav-texts{
+        width:50%;
+    }
+    .logopro{
+        width:50%;
+    }
+    .buttlines{
+        display:block;
+    }  .profile-file{
+        width:70%;
+    }
+    .Link-text1{
+        width:80px;
+    }
+}
+@media (max-width:460px){
+    .Link-text1{
+        width:70px;
+    }
+}
+@media (max-width:420px){
+    .Link-text1{
+        width:60px;
+    }
+}
+@media (max-width:376px){
+    .Link-text1{
+        width:50px;
+    }
+}
+@media (max-width:334px){
+    .Link-text1{
+        width:40px;
+    }
+    .Link-home{
+        width:100px;
+       } 
+}
+@media (max-width:400px){
+    .logopro img{
+        width:100px;
+        height:70px;
+    }
+    .Links{
+        width:50px;
+        height:60px;
+       display:flex;
+       justify-content: center;
+       align-items: center;
+       border-bottom:3px solid #fff;
+       }
+       .profile-file{
+        width:100%;
+    }
+    
+}

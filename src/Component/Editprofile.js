@@ -1,15 +1,9 @@
 import React from 'react'
-import { useNavigate } from 'react-router-dom'
 
-const Profile =()=> {
-  const navigator = useNavigate()
-
-  const handleProfileClick = ()=>{
-    navigator('/profile/myaccount')
-  }
-
+const Editprofile = () => {
   return (
     <>
+    
     <div className='w-100'>
      
       
@@ -76,7 +70,7 @@ const Profile =()=> {
               </div>
               
               <div className="profits-input">
-                <button onClick={handleProfileClick}>Submit</button>
+                <button>Edit account</button>
               </div>
               </div>
             </div>
@@ -92,4 +86,4 @@ const Profile =()=> {
   )
 }
 
-export default Profile
+export default Editprofile

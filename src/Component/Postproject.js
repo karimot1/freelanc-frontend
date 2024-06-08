@@ -1,6 +1,5 @@
 import React from 'react';
 import makeitreal from '../Component/images/make-it-real.webp';
-import  logo from './images/logo free.png'
 import { Icon } from '@iconify/react';
 
 
@@ -15,9 +14,6 @@ const Postproject =() =>{
         
         <div className='postallinfo'>
 
-            <div className='post-logo'>
-              <img src={logo} alt="" />
-            </div>
 
             <div className='post-text'>
               <h1>Tell us what you need <span>done.</span></h1>
