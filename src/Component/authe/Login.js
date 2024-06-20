@@ -1,6 +1,6 @@
 import React from 'react'
 
-import logos from '../images/logo free.png'
+import logopro from "../image2/logo_pro-removebg-preview.png";
 import apple from '../images/apple-app-store-badge.png'
 import google from '../images/google-play-store-badge.png'
 import { Link } from 'react-router-dom'
@@ -16,7 +16,7 @@ const Login=()=> {
           <div className='sign-content'>
 
             <div className='sign-logo'>
-              <img src={logos} alt="" />
+              <img src={logopro} alt="" />
             </div>
 
             <div className='sign-all' >       
@@ -71,14 +71,14 @@ const Login=()=> {
                 <Link>Sign up</Link>
                </div>
 
-                <div className='images'>               
+                {/* <div className='images'>               
                <div className='imagess'>
                 <img src={apple} alt="" />
                </div>
                <div className='imagess'>
                 <img src={google} alt="" />
                </div>
-               </div>
+               </div> */}
 
           </div>
 
