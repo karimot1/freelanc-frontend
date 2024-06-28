@@ -35,18 +35,18 @@
 .nav-texts .post{
     width:150px;
     height:35px;
-    background-color:#dedeb9;
+    background-color: #FFD700;
     border:0;
     border-radius:3px;
     font-size:15px;
     line-height:24px;
     font-weight:700;
     font-family: Arial, Helvetica, sans-serif;
-    color:#fcfcfd;
+    color:#FFFFFF;
     cursor:pointer;
 }
 .nav-texts .post:hover{
-    background-color:#dedeb966;
+    background-color:#FFC107;
 }
 .nav-texts span{
     font-size:15px;
@@ -69,7 +69,7 @@
 .sidenav{
     width:100%;
     height:110px;
-    background-color:#232a35;
+    background-color: #013220;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -104,10 +104,10 @@ align-items: center;
    border-bottom:3px solid #fff;
    }
    .Link:hover{
-    background-color:rgba(255, 255, 255, 0.272);
+    background-color: #e0a800;
 }
 .Link:hover{
-    background-color:rgba(255, 255, 255, 0.272);
+    background-color: #e0a800;
 }
 .Link:focus-within{
     border-bottom:3px solid #fff;
@@ -419,7 +419,7 @@ align-items: center;
     .dashforpost{
         width:100%;
         height:200px;
-        background-color: #fff;
+        background-color:#003366;
         box-shadow:2px 2px 2px 2px #00000012;
         margin-top:20px;
     }
@@ -434,21 +434,21 @@ align-items: center;
         font-family: Arial, Helvetica, sans-serif;
         font-weight:600;
         list-style:28px;
-        color: #374151;
+        color: #001F3F;
     }
     .dashbackground-text p{
         font-size:20px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight:400;
         list-style:24px;
-        color: #374151;
+        color: #001F3F;
     }
     .dashbackground-text h1{
         font-size:30px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight:500;
         list-style:24px;
-        color: #000;
+        color: #003366;
     }
     .dashforinfo{
         width:100%;
@@ -460,11 +460,11 @@ align-items: center;
     .profile-dropdown{
         width:250px;
         height:400px;
-        background-color:#fcfcfd;
+        background-color:#F0F0F0;
         position:absolute;
         top:60px;
         right:10px;
-        box-shadow:3px 3px 3px 3px #fafafa;
+        box-shadow:3px 3px 3px 3px #00000024;
         display:none;
     }
     .profile-dd:hover  .profile-dropdown{
@@ -483,6 +483,12 @@ align-items: center;
     }
     .side-link{
         width:100%;
+    }
+    .logopro{
+        width:50%;
+    }
+    .nav-texts{
+        width:50%;
     }
    }
 @media (max-width:900px){
@@ -505,7 +511,6 @@ align-items: center;
     display:flex;
     justify-content: center;
     align-items: center;
-    background-color:red;
     }
 }
 @media (max-width:703px){
@@ -603,5 +608,10 @@ align-items: center;
        .profile-file{
         width:100%;
     }
-    
+    .nav-texts p{
+        display:none;
+      }
+    .profile-dd{
+        display:none;
+    }
 }

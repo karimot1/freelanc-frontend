@@ -23,7 +23,7 @@ const App =()=> {
       <Route path="/signup" element={<Signup/>} />
       <Route path="/login" element={<Login />}/>
       <Route path="/post-project" element={<Postproject />} />
-        <Route path="/choose" element={<Accountselection />} />
+        <Route path="/Usernames" element={<Accountselection />} />
         <Route path="/job" element={<Job />}/>
 
         <Route path="/dashboard"  element={< Dashboard />} >
