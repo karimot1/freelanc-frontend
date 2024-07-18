@@ -139,7 +139,7 @@ align-items: center;
 .profilepage{
     width:100;
     height:fit-content;
-    background-color:#ffffff;
+    background-color:#013220;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -164,11 +164,12 @@ align-items: center;
 }
 .profit-input label{
     margin:5px;
+    color:#ffffff;
 }
 .profit-input input{
     width: 100%;
     height:40px;
-    border:1px solid #a1a2a5;
+    border:1px solid #FFD700;
     outline:0;
     border-radius:5px;
     padding:5px;
@@ -176,27 +177,20 @@ align-items: center;
 .profit-input .selection{
     width:48%;
 }
-.profit-input select{
-    width: 100%;
-    height:40px;
-    border:1px solid #a1a2a5;
-    outline:0;
-    border-radius:5px;
-    margin-top:10px;
-}
+
 .profit-input textarea{
     width:100%;
     height:120px;
-    border:1px solid #a1a2a5;
+    border:1px solid #FFD700;
     outline:0;
     border-radius:5px;
     padding:5px;
 }
 .profit-input textarea:hover{
-    border:1px solid #dedeb9;
+    border:1px solid #FFC700;
 }
 .profit-input input:hover{
-    border:1px solid #dedeb9;
+    border:1px solid #FFC700;
 }
 .profile-file{
     width:25%;
@@ -212,7 +206,7 @@ align-items: center;
     border:0;
     width:200px;
     height:40px;
-    background-color:#085d37;
+    background-color:#FFC107;
     border-radius:3px;
     font-size:15px;
     line-height:24px;
@@ -222,7 +216,7 @@ align-items: center;
     margin-top:30px;
 }
 .profits-input button:hover{
-    background-color:#17392b;
+    background-color:#ffc800b6;
 }
 .profits-input{
     width:100%;
@@ -235,7 +229,7 @@ align-items: center;
 .Profilenavbar{
     width:100%;
     height:110px;
-    background-color: #232a35;
+    background-color:#12151b;
     display: flex;
     justify-content: center;
     align-items:center;

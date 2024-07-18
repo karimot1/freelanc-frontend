@@ -33,6 +33,7 @@ const Signup = () => {
       console.log(response);
       if (response.data.status === 'success') {
         toast.success("Signup successful!");
+        localStorage.setItem('userDetails', JSON.stringify(response.data.createUser));
         navigate('/Usernames'); // Use the navigate function
       } else {
         toast.error("Signup failed. Please try again.");

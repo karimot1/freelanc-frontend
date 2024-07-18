@@ -20,7 +20,7 @@ const Navbar1 = () => {
       axios.get(`http://localhost:5001/Api/users/getuser/${userId}`)
         .then((res) => {
           console.log('API response:', res.data);
-          setGetUser(res.data); 
+          setGetUser(res.data);
         }).catch((error) => {
           console.error('Error fetching user data:', error);
         });
@@ -60,17 +60,15 @@ const Navbar1 = () => {
         <div className='profile-dd'>
           <button onClick={handleProfileClick} className='profile'>
             <Icon icon="ion:person-circle-outline" width="25" height="25" style={{ color: "white" }} />
-            <span>{ getUser.usernames}</span>
+            <span>{getUser.usernames}</span>
           </button>
-            <div className='profile-dropdown'>
-              <button>My Dashboard</button>
-              <div>
-                <h1>My account</h1>
-                <button>Profile</button>
-                
-              </div>
+          <div className='profile-dropdown'>
+            <button>My Dashboard</button>
+            <div>
+              <h1>My account</h1>
+              <button>Profile</button>
             </div>
-
+          </div>
         </div>
 
         <div>
