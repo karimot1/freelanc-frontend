@@ -42,7 +42,7 @@ const Profile = () => {
     };
 
     try {
-      const Profileresponse = await axios.post("http://localhost:5001/Api/profile/uploadprofile", UserDetails);
+      const Profileresponse = await axios.post("http://localhost:5200/Api/profile/uploadprofile", UserDetails);
       console.log(Profileresponse);
 
       if (Profileresponse.data.status === 'success') {
